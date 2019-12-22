@@ -1,5 +1,8 @@
 Bitcoin Password Generator
 
+Language
+1. Python
+
 Package used
 1. random
 
