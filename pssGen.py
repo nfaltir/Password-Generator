@@ -4,7 +4,7 @@ import random
 print("\n===============BITCOIN PASSWROD GENERATOR===============")
 #asks user to enter password length
 passLength = int(input("Enter length of password:"))
-string = "abcdefghijklmnABCoZ!@#$%^MpqrsDLEF0AZ!@#$%^BCODtKuvJwIGHxyz01234567890AZ!@#$%^BCODEFGHNIJKLMNOPQRSTUVWXYZ!@#$%^%^&*()?"
+string = "abcdefghijklmnABCoZ!@#$%^xyz012345678MpqrsDLEF0AZ!@#$%^BCODtKuvJwIGHxyz01234567890AZ!@#$%^BCODEFGHNIJKLMNOPQRSTUVWXYZ!@#$%^%^&*()?"
 #passLength = 20
 password =  "".join(random.sample(string,passLength))
 print ("\nNew password: ", password)
