@@ -1,7 +1,7 @@
 
-This is a password generator script 
-=======
-Bitcoin Password Generator
+
+:bitcoin: Bitcoin Password Generator
+=========================================
 
 Language
 1. Python
