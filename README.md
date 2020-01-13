@@ -1,6 +1,6 @@
 
 
-:bitcoin: Bitcoin Password Generator
+:lock: Bitcoin Password Generator
 =========================================
 
 Language
