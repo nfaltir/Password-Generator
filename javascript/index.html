@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Password App</title>
+</head>
+
+<body>
+  <div id="box" class="main ui segment">
+    <h2>Password Generator <i class="lock icon"></i></h2>
+    <input class="ui massive icon input" id="password" placeholder="create password" readonly>
+    <br>
+    <div class="btn-box">
+      <br>
+      <button id="generateBtn" class="large ui teal button" onclick="generatePassword();">Generate </button>
+      <button id="copyBtn" class="large ui default button" onclick="copyPassword(); alertMsg();">copy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

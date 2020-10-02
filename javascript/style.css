@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+}
+
+body{
+  background-color: #393e46;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+input {
+  width: 300px;
+  height: 70px;
+  margin: auto;
+  position: relative;
+  box-shadow: #b92c2c;
+  text-align: center;
+}
+
+i {
+  color: orange;
+  size: 100px;
+}
+
+#box{
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -10%;
+  background-color: #e8e8e8;
+
+
+}
+
+#copyBtn {
+  cursor: pointer;
+  color: white;
+  background-color: slategray;
+}
+#copyBtn:active{
+  background: tomato;
+}
+
+#generateBtn:active{
+  background: slateblue;
+}
+
+@media only screen and (max-width: 768px) {
+  #box {
+     font-size: 1em;
+  }
+}

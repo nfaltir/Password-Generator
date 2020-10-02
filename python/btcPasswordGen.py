@@ -16,7 +16,7 @@ string = "abcdefghijklmnABCoZ!@#$%^MpqrsDLEF0AZ!@#$%^BCODtKuvJwIGHxyz01234567890
 
 >>>>>>> b094ae17258a546c5ccd9488c7b5be69418860b2:btcPasswordGen.py
 #passLength = 20
-password =  "".join(random.sample(string,passLength))
+password =  (("".join(random.sample(string,passLength))
 
 print ("\nNew password: ", password)
 
