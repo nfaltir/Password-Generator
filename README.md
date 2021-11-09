@@ -8,6 +8,7 @@ Password Generators 🔒
 Overview
 --------------
 Write the same password generator app in different computer languages. <br>
+This is an awesome excercise to learn different languages. 
 
 
 <br>
