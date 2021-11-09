@@ -4,7 +4,7 @@ var copyBtn = document.querySelector('.copyBtn')
 
 function generatePassword () {
   var chars = "abcdefghijklmnABCoZ!@#$%^xyz012345678MpqrsDLEF0AZ!@#$%^BCODtKuvJwIG{}[]Hxyz01234567890AZ!@#$%^BCODEFGHNIJKLMNOPQRSTUVWXYZ!@#$%^%^&*()?"
-  var passwordLength = 17;
+  var passwordLength = 30;
   var password = " ";
 
   for (var i = 0; i<passwordLength; i++){

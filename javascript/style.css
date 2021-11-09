@@ -16,7 +16,7 @@ h2 {
 }
 
 input {
-  width: 300px;
+  width: 490px;
   height: 70px;
   margin: auto;
   position: relative;
@@ -31,14 +31,21 @@ i {
 
 #box{
   position: fixed;
-
+  width: 600px;
   top: 50%;
   left: 50%;
   margin-top: -200px;
-  margin-left: -10%;
+  margin-left: -15%;
   background-color: #e8e8e8;
+}
 
+#box > h2 {
+  text-align: center;
+}
 
+#password{
+  background-color: #334756;
+  color: yellowgreen;
 }
 
 #copyBtn {
