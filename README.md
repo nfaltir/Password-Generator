@@ -15,12 +15,12 @@ This is an awesome excercise to learn different languages.
 
 
 ```markdown
-# Python
+# Python (Script + Tkinter GUI)
 ```
 ----------
 <i>Code output: Python</i>
 
-<img src="assets/python.png" style="width: 70%;">
+<img src="assets/python-gui.png" style="width: 70%;">
 
 
 <br>
@@ -35,7 +35,7 @@ This is an awesome excercise to learn different languages.
 <br>
 
 ```markdown
-# C Lang
+# C 
 ```
 <i>Code output: C lang</i>
 
