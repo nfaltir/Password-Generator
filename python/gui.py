@@ -13,6 +13,8 @@ root.geometry("700x400")
 
 
 
+
+
 my_password = chr(randint(33, 126))
 
 #---------------------Functions--------------------------
@@ -60,7 +62,10 @@ my_entry.pack(pady=30, padx=20)
 
 #Create Entry Box for our returned password
 
-pw_entry = Entry(root, text='', font=("Helvetica", 30), background='#fff', bd=0)
+text = Label(text="New Password 👇")
+text.place(x=300,y=130)
+
+pw_entry = Entry(root, text='', font=("Sans", 30), bd=1, highlightthickness=0, bg="whitesmoke")
 pw_entry.pack(pady=20)
 
 
@@ -69,13 +74,13 @@ my_frame = Frame(root,  bd=0)
 my_frame.pack(pady=20)
 
 #Create Buttons
-my_button = Button(my_frame, text="Generate Password", command=new_rand, bd=0, foreground="#113CFC", padx=15, pady=10)
+my_button = Button(my_frame, text="Generate Password", command=new_rand, bd=0, foreground="#00917C", padx=15, pady=10)
 my_button.grid(row=0, column=0, padx=10)
 
-clip_button = Button(my_frame, text="Copy Password", command=copy_password, foreground="#113CFC", padx=15, pady=10, bg="#232323")
+clip_button = Button(my_frame, text="Copy Password", command=copy_password, foreground="#325288", padx=15, pady=10, background="red")
 clip_button.grid(row=0, column=1, padx=10)
 
-reset_button = Button(my_frame, text="Reset", command=reset_values, foreground="#FF4646", padx=15, pady=10)
+reset_button = Button(my_frame, text="Reset", command=reset_values, foreground="#FA1E0E", padx=15, pady=10)
 reset_button.grid(row=0, column=2, padx=10)
 
 
