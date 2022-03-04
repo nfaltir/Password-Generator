@@ -8,7 +8,7 @@ Password Generators 🔒
 Overview
 --------------
 Write the same password generator app in different computer languages. <br>
-This is an awesome excercise to learn different languages. 
+This is an awesome excercise to learn how different languages work. 
 
 
 <br>
@@ -30,7 +30,7 @@ This is an awesome excercise to learn different languages.
 ```
 <i>Code output: Javascript</i>
 
-<img src="assets/web.png" style="width: 70%;">
+<img src="assets/vanillajs.png" style="width: 70%;">
 
 <br>
 
