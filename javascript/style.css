@@ -29,6 +29,12 @@ i {
   size: 100px;
 }
 
+.btn-box{
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+}
+
 #box{
   position: fixed;
   width: 600px;
@@ -36,16 +42,21 @@ i {
   left: 50%;
   margin-top: -200px;
   margin-left: -15%;
-  background-color: #e8e8e8;
+  background-color: #fafafa;
 }
 
 #box > h2 {
   text-align: center;
+  padding: 10px;
 }
 
 #password{
   background-color: #334756;
   color: yellowgreen;
+  width: 570px;
+  padding: 10px;
+  box-shadow: rebeccapurple;
+  border-radius: 3px;
 }
 
 #copyBtn {
