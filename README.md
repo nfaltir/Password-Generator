@@ -13,6 +13,20 @@ This is an awesome excercise to learn how different languages work.
 
 <br>
 
+<br>
+
+
+```markdown
+# Python (Streamlit Web App)
+```
+----------
+<i>Web App Demo: Python</i>
+
+<img src="assets/streamlit-pass.png" style="width: 70%;">
+
+
+<br>
+
 
 ```markdown
 # Python (Script + Tkinter GUI)
