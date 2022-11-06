@@ -22,7 +22,7 @@ This is an awesome excercise to learn how different languages work.
 ----------
 <i>Web App Demo: Python</i>
 
-<img src="assets/streamlit-pass.png" style="width: 70%;">
+<img src="assets/streamlit-pass.png" style="margin: auto;">
 
 
 <br>
