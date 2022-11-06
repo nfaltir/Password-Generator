@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.set_page_config(page_title="Password App", page_icon="🔒")
+st.set_page_config(page_title="Password App", page_icon="🔒", layout="wide")
 st.markdown("<h1 style='text-align: center; margin-bottom: 40px; color: #F0FF42;'>Generate Secure Password</h1>", unsafe_allow_html=True)
 pw_length = st.slider(min_value=10, max_value=100, label="Password Length")
 pw_keys = "abcdefghijklmnABCoZ!@#$%^xyz012345678MpqrsDLEF0AZ!@#$%^BCODtKuvJwI}{G[]Hxyz01234567890AZ!@#$%^BCODEFGHNIJKLMNOPQRSTUVWXYZ!@#$%^%^&*()?"
@@ -24,3 +24,9 @@ with col5:
     pass
 with col3:
     center_button = st.button("Generate")
+
+
+
+
+
+
